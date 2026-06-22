@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\eolalek1\\source\\repos\\WorkBackend1\\WorkBackend1.csproj": {}
+    "C:\\Users\\Enoch OLALEKE\\source\\repos\\my-app-backend\\source\\repos\\WorkBackend1\\WorkBackend1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\eolalek1\\source\\repos\\WorkBackend1\\WorkBackend1.csproj": {
+    "C:\\Users\\Enoch OLALEKE\\source\\repos\\my-app-backend\\source\\repos\\WorkBackend1\\WorkBackend1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\eolalek1\\source\\repos\\WorkBackend1\\WorkBackend1.csproj",
+        "projectUniqueName": "C:\\Users\\Enoch OLALEKE\\source\\repos\\my-app-backend\\source\\repos\\WorkBackend1\\WorkBackend1.csproj",
         "projectName": "WorkBackend1",
-        "projectPath": "C:\\Users\\eolalek1\\source\\repos\\WorkBackend1\\WorkBackend1.csproj",
-        "packagesPath": "C:\\Users\\eolalek1\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\eolalek1\\source\\repos\\WorkBackend1\\obj\\",
+        "projectPath": "C:\\Users\\Enoch OLALEKE\\source\\repos\\my-app-backend\\source\\repos\\WorkBackend1\\WorkBackend1.csproj",
+        "packagesPath": "C:\\Users\\Enoch OLALEKE\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Enoch OLALEKE\\source\\repos\\my-app-backend\\source\\repos\\WorkBackend1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\eolalek1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Enoch OLALEKE\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -69,6 +69,10 @@
               "target": "Package",
               "version": "[8.0.0, )"
             },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.6.2, )"
@@ -93,7 +97,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.200-preview.0.26103.119/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
