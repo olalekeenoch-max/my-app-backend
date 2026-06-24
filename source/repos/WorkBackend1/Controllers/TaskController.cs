@@ -31,6 +31,11 @@ namespace WorkBackend1.Controllers
         [HttpPost]
         public async Task<IActionResult> CreateTask(TaskItem task)
         {
+            if (task.DueDate.HasValue)
+            {
+                task.DueDate = DateTime.SpecifyKind(task.DueDate.Value, DateTimeKind.Utc);
+            }
+
             _context.Tasks.Add(task);
             await _context.SaveChangesAsync();
             return Ok(task);
